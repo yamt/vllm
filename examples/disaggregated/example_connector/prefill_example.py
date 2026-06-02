@@ -35,11 +35,11 @@ def main():
         enforce_eager=True,
         gpu_memory_utilization=0.8,
         block_size=16,
-        kv_transfer_config=KVTransferConfig(
-            kv_connector="ExampleConnector",
-            kv_role="kv_both",
-            kv_connector_extra_config={"shared_storage_path": "local_storage"},
-        ),
+        #kv_transfer_config=KVTransferConfig(
+        #    kv_connector="ExampleConnector",
+        #    kv_role="kv_both",
+        #    kv_connector_extra_config={"shared_storage_path": "local_storage"},
+        #),
     )  # , max_model_len=2048, max_num_batched_tokens=2048)
 
     # 1ST generation (prefill instance)
