@@ -19,7 +19,9 @@ def read_prompts():
         #context2 + "The capital of China is",
 
         # 34 tokens (Qwen/Qwen2.5-0.5B-Instruct)
-        "Question: There is a man on a side of river. He has a goat and a boat. How can he went to the other side of the river? Answer:"
+        "Question: There is a man on a side of river. He has a goat and a boat. How can he went to the other side of the river? Answer:",
+        "Let me explain how vLLM works as far as I can. vLLM",
+        "Question: Please explain the possible difficulties to work for a foreign company in a detail without using a word \"culture\". Answer:",
     ]
 
 
