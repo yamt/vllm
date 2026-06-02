@@ -18,10 +18,14 @@ def read_prompts():
         #context2 + "Your name is",
         #context2 + "The capital of China is",
 
-        # 34 tokens (Qwen/Qwen2.5-0.5B-Instruct)
-        "Question: There is a man on a side of river. He has a goat and a boat. How can he went to the other side of the river? Answer:",
+        # 35 tokens (Qwen/Qwen2.5-0.5B-Instruct)
+        "Question: There is a man on a side of a river. He has a goat and a boat. How can he go to the other side of the river? Answer:",
+        # 17 tokens (Qwen/Qwen2.5-0.5B-Instruct)
         "Let me explain how vLLM works as far as I can. vLLM",
-        "Question: Please explain the possible difficulties to work for a foreign company in a detail without using a word \"culture\". Answer:",
+        # 19 tokens (Qwen/Qwen2.5-0.5B-Instruct)
+        "Question: Please explain the possible difficulties to work for a foreign company in a detail. Answer:",
+        # 27 tokens (Qwen/Qwen2.5-0.5B-Instruct)
+        "Question: My daughter is taller than I am. My husband is taller than my daughter. Does my daughter have a husband? Answer:",
     ]
 
 
